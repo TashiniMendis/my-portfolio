@@ -12,10 +12,17 @@ import ScrollRevealComponent from './ScrollRevealComponent';
 import TypedComponent from './TypedComponent';
 import Skill from './Skills';
 import TimeLine from './Timeline';
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
       <div className="App">
+         <Helmet>
+                <meta charSet="utf-8" />
+                <title>Tashini Mendis Portfolio</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Tashini Mendis Portfolio" />
+            </Helmet>
       <Header />
       <Home />
       <About />
